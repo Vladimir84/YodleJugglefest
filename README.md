@@ -2,6 +2,7 @@ YodleJugglefest
 ===============
 
 Solution to [Yodle Jugglesfest] (http://www.yodlecareers.com/puzzles/jugglefest.html) challenge.
+
  Problem
 
  Each team will attempt to complete a juggling circuit consisting of several tricks. 
@@ -27,7 +28,8 @@ Solution to [Yodle Jugglesfest] (http://www.yodlecareers.com/puzzles/jugglefest.
 
  Solution
 
- >> There will be thousands of participants split into teams. 
+ >> There will be thousands of participants split into teams.
+ 
  Thousands of participants, each one has a preferences list which might cover thousands of teams.
  So size of the problem is big enough to stay away from quadratic space complexity, but we have some room for 
  constant term in linear complexity. We'll keep that in mind if it comes to trade offs between 
